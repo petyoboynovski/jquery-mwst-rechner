@@ -15,8 +15,8 @@ Brutto: <input type="text" id="brutto">
 <br />
 
 <div id="result"></div>
-</body>
-    <script>
+
+     <script>
             $("#calc").on("click", function() {
                 let netto = Number($("#netto").val());
                 let mwst = Number($("#mwst").val());
@@ -25,4 +25,5 @@ Brutto: <input type="text" id="brutto">
                 brutto.val(parseFloat(total, 10).toFixed(2));
             } );
     </script>
+</body>
 </html>
