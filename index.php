@@ -7,14 +7,10 @@
 
 <body>
 
-Netto: <input type="text" id="netto"> + 
-Mwst %: <input type="text" id="mwst"> = 
-Brutto: <input type="text" id="brutto">
-<button type="submit" id="calc" value="Kalkulieren">Kalkulieren</button>
-
-<br />
-
-<div id="result"></div>
+     Netto: <input type="text" id="netto"> + 
+     Mwst %: <input type="text" id="mwst"> = 
+     Brutto: <input type="text" id="brutto">
+     <button type="submit" id="calc" value="Kalkulieren">Kalkulieren</button>
 
      <script>
             $("#calc").on("click", function() {
@@ -25,5 +21,6 @@ Brutto: <input type="text" id="brutto">
                 brutto.val(parseFloat(total, 10).toFixed(2));
             } );
     </script>
+     
 </body>
 </html>
